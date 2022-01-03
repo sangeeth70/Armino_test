@@ -41,10 +41,10 @@ class _HomePageState extends State<HomePage> {
               Icons.notifications,
               color: Color.fromARGB(255, 117, 96, 226),
             ),
-            padding: EdgeInsets.only(right: 20,top: 17),
+            padding: EdgeInsets.only(right: 20,top: 15),
           ),
             ClipRRect(borderRadius: BorderRadius.circular(5),
-              child: Container(color: Colors.deepOrangeAccent,width: 6,height: 6,margin: EdgeInsets.only(left: 14,top: 22),
+              child: Container(color: Colors.deepOrangeAccent,width: 6,height: 6,margin: EdgeInsets.only(left: 14,top: 20),
                 ),
             )
           ],

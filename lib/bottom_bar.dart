@@ -16,13 +16,13 @@ class _BBarState extends State<BBar> {
         child: Column(
           children: [
             div(),
-            Container(height: 4,width: 40,color: Color.fromARGB(255, 117, 96, 226),margin: EdgeInsets.only(right:157,bottom: 1),),
+            Container(height: 4,width: 40,color: Color.fromARGB(255, 117, 96, 226),margin: EdgeInsets.only(right:172,bottom: 1),),
             Row(
               children: [
 
                 Padding(
                   padding: const EdgeInsets.only(left: 15),
-                  child: Container(child: IconButton(onPressed: (){},icon: Icon(Icons.apps_rounded,color: Color.fromARGB(255, 117, 96, 226),)),margin: EdgeInsets.only(left: 75),),
+                  child: Container(child: IconButton(onPressed: (){},icon: Icon(Icons.apps_rounded,color: Color.fromARGB(255, 117, 96, 226),)),margin: EdgeInsets.only(left: 55),),
                 ),
 
                 Padding(
@@ -32,7 +32,7 @@ class _BBarState extends State<BBar> {
 
                 Padding(
                   padding: const EdgeInsets.only(left: 20),
-                  child: Container(child: IconButton(onPressed: (){},icon: Icon(Icons.favorite_outline,color: Color.fromARGB(255, 81, 87, 100),)),margin: EdgeInsets.only(left: 25),),
+                  child: Container(child: IconButton(onPressed: (){},icon: Icon(Icons.favorite_outline,color: Color.fromARGB(255, 81, 87, 100),)),margin: EdgeInsets.only(left: 30),),
                 ),
               ],
             ),
